@@ -1,5 +1,5 @@
 //
-//  SWIFTUI_MovieReviewApp.swift
+//  Applcation
 //  SWIFTUI_MovieReview
 //
 //  Created by 이윤수 on 2023/06/12.

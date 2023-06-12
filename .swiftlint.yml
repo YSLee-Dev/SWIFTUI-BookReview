@@ -2,4 +2,8 @@ excluded:
     - Pods
     - SWIFTUI_MovieReviewTests
     - SWIFTUI_MovieReviewUITests
-    - SWIFTUI_MovieReview/SWIFTUI_MovieReviewApp.swift
+    - SWIFTUI_MovieReview/Application/SWIFTUI_MovieReviewApp.swift
+
+disabled_rules:
+- leading_whitespace
+- trailing_whitespace
