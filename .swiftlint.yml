@@ -1,0 +1,5 @@
+excluded:
+    - Pods
+    - SWIFTUI_MovieReviewTests
+    - SWIFTUI_MovieReviewUITests
+    - SWIFTUI_MovieReview/SWIFTUI_MovieReviewApp.swift
