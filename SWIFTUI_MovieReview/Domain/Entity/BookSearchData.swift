@@ -9,7 +9,7 @@ import Foundation
 
 struct BookSearchData: Identifiable, Hashable {
     var id: String {
-        "\(self.title) \(self.author)"
+        UUID().uuidString
     }
     
     let title: String
