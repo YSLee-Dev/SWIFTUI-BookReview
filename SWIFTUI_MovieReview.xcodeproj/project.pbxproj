@@ -19,8 +19,16 @@
 		34A531992A372A620019F862 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A531982A372A610019F862 /* NetworkService.swift */; };
 		34A5319B2A372A7A0019F862 /* NetworkServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A5319A2A372A7A0019F862 /* NetworkServiceProtocol.swift */; };
 		34A5319E2A372B540019F862 /* URLSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A5319D2A372B540019F862 /* URLSessionProtocol.swift */; };
-		34A531A02A372EA00019F862 /* MovieAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A5319F2A372EA00019F862 /* MovieAPI.swift */; };
+		34A531A02A372EA00019F862 /* BookAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A5319F2A372EA00019F862 /* BookAPI.swift */; };
 		34A531A22A37347B0019F862 /* RequestToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A531A12A37347B0019F862 /* RequestToken.swift */; };
+		34A531A52A386D080019F862 /* BookSearchResponseDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A531A42A386D080019F862 /* BookSearchResponseDTO.swift */; };
+		34A531A92A386F960019F862 /* BookSearchRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A531A82A386F960019F862 /* BookSearchRepositoryProtocol.swift */; };
+		34A531AC2A386FDF0019F862 /* BookSearchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A531AB2A386FDF0019F862 /* BookSearchData.swift */; };
+		34A531AF2A3871320019F862 /* BookSearchRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A531AE2A3871320019F862 /* BookSearchRepository.swift */; };
+		34A531B22A3877390019F862 /* BookSearchUsecase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A531B12A3877390019F862 /* BookSearchUsecase.swift */; };
+		34A531B52A38786D0019F862 /* BookSearchUsecaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A531B42A38786D0019F862 /* BookSearchUsecaseProtocol.swift */; };
+		34A531B92A3878ED0019F862 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A531B82A3878ED0019F862 /* MainView.swift */; };
+		34A531BB2A3878F30019F862 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A531BA2A3878F30019F862 /* MainViewModel.swift */; };
 		359091E80A5BA07E3FACBA3F /* Pods_SWIFTUI_MovieReview_SWIFTUI_MovieReviewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E3F337FA0CBE2287F689677 /* Pods_SWIFTUI_MovieReview_SWIFTUI_MovieReviewUITests.framework */; };
 		C321340E9485A187A83BC065 /* Pods_SWIFTUI_MovieReviewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29C8D660DC8B5552D2D5F479 /* Pods_SWIFTUI_MovieReviewTests.framework */; };
 /* End PBXBuildFile section */
@@ -59,8 +67,16 @@
 		34A531982A372A610019F862 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		34A5319A2A372A7A0019F862 /* NetworkServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceProtocol.swift; sourceTree = "<group>"; };
 		34A5319D2A372B540019F862 /* URLSessionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionProtocol.swift; sourceTree = "<group>"; };
-		34A5319F2A372EA00019F862 /* MovieAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieAPI.swift; sourceTree = "<group>"; };
+		34A5319F2A372EA00019F862 /* BookAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookAPI.swift; sourceTree = "<group>"; };
 		34A531A12A37347B0019F862 /* RequestToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestToken.swift; sourceTree = "<group>"; };
+		34A531A42A386D080019F862 /* BookSearchResponseDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSearchResponseDTO.swift; sourceTree = "<group>"; };
+		34A531A82A386F960019F862 /* BookSearchRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSearchRepositoryProtocol.swift; sourceTree = "<group>"; };
+		34A531AB2A386FDF0019F862 /* BookSearchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSearchData.swift; sourceTree = "<group>"; };
+		34A531AE2A3871320019F862 /* BookSearchRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSearchRepository.swift; sourceTree = "<group>"; };
+		34A531B12A3877390019F862 /* BookSearchUsecase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSearchUsecase.swift; sourceTree = "<group>"; };
+		34A531B42A38786D0019F862 /* BookSearchUsecaseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSearchUsecaseProtocol.swift; sourceTree = "<group>"; };
+		34A531B82A3878ED0019F862 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		34A531BA2A3878F30019F862 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		4513A0B52639302D04B9307A /* Pods-SWIFTUI_MovieReviewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWIFTUI_MovieReviewTests.release.xcconfig"; path = "Target Support Files/Pods-SWIFTUI_MovieReviewTests/Pods-SWIFTUI_MovieReviewTests.release.xcconfig"; sourceTree = "<group>"; };
 		4B64ECDE1F470539E80A1DC3 /* Pods-SWIFTUI_MovieReviewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWIFTUI_MovieReviewTests.debug.xcconfig"; path = "Target Support Files/Pods-SWIFTUI_MovieReviewTests/Pods-SWIFTUI_MovieReviewTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6E3F337FA0CBE2287F689677 /* Pods_SWIFTUI_MovieReview_SWIFTUI_MovieReviewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWIFTUI_MovieReview_SWIFTUI_MovieReviewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,6 +141,8 @@
 		34A531632A371E3F0019F862 /* SWIFTUI_MovieReview */ = {
 			isa = PBXGroup;
 			children = (
+				34A531B62A3878BA0019F862 /* Presentation */,
+				34A531A62A386F650019F862 /* Domain */,
 				34A531962A372A380019F862 /* Data */,
 				34A531942A37299D0019F862 /* Application */,
 				34A531952A3729C90019F862 /* Resource */,
@@ -178,6 +196,7 @@
 		34A531962A372A380019F862 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				34A531AD2A38711D0019F862 /* Repository */,
 				34A531972A372A3F0019F862 /* Network */,
 			);
 			path = Data;
@@ -187,7 +206,8 @@
 			isa = PBXGroup;
 			children = (
 				34A531982A372A610019F862 /* NetworkService.swift */,
-				34A5319F2A372EA00019F862 /* MovieAPI.swift */,
+				34A5319F2A372EA00019F862 /* BookAPI.swift */,
+				34A531A32A386CFA0019F862 /* DTO */,
 				34A5319C2A372B430019F862 /* Protocol */,
 			);
 			path = Network;
@@ -200,6 +220,82 @@
 				34A5319A2A372A7A0019F862 /* NetworkServiceProtocol.swift */,
 			);
 			path = Protocol;
+			sourceTree = "<group>";
+		};
+		34A531A32A386CFA0019F862 /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				34A531A42A386D080019F862 /* BookSearchResponseDTO.swift */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
+		34A531A62A386F650019F862 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				34A531B02A3877250019F862 /* Usecase */,
+				34A531AA2A386FD30019F862 /* Entity */,
+				34A531A72A386F6D0019F862 /* RepositoryProtocol */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		34A531A72A386F6D0019F862 /* RepositoryProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				34A531A82A386F960019F862 /* BookSearchRepositoryProtocol.swift */,
+			);
+			path = RepositoryProtocol;
+			sourceTree = "<group>";
+		};
+		34A531AA2A386FD30019F862 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				34A531AB2A386FDF0019F862 /* BookSearchData.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		34A531AD2A38711D0019F862 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				34A531AE2A3871320019F862 /* BookSearchRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		34A531B02A3877250019F862 /* Usecase */ = {
+			isa = PBXGroup;
+			children = (
+				34A531B12A3877390019F862 /* BookSearchUsecase.swift */,
+				34A531B32A3878650019F862 /* Protocol */,
+			);
+			path = Usecase;
+			sourceTree = "<group>";
+		};
+		34A531B32A3878650019F862 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				34A531B42A38786D0019F862 /* BookSearchUsecaseProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		34A531B62A3878BA0019F862 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				34A531B72A3878E70019F862 /* Main */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		34A531B72A3878E70019F862 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				34A531B82A3878ED0019F862 /* MainView.swift */,
+				34A531BA2A3878F30019F862 /* MainViewModel.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 		4D99506DF06840659FAA2C1B /* Pods */ = {
@@ -483,11 +579,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34A531B52A38786D0019F862 /* BookSearchUsecaseProtocol.swift in Sources */,
+				34A531B92A3878ED0019F862 /* MainView.swift in Sources */,
+				34A531AF2A3871320019F862 /* BookSearchRepository.swift in Sources */,
+				34A531A52A386D080019F862 /* BookSearchResponseDTO.swift in Sources */,
+				34A531B22A3877390019F862 /* BookSearchUsecase.swift in Sources */,
+				34A531BB2A3878F30019F862 /* MainViewModel.swift in Sources */,
 				34A5319B2A372A7A0019F862 /* NetworkServiceProtocol.swift in Sources */,
 				34A531672A371E3F0019F862 /* ContentView.swift in Sources */,
 				34A531A22A37347B0019F862 /* RequestToken.swift in Sources */,
+				34A531AC2A386FDF0019F862 /* BookSearchData.swift in Sources */,
 				34A531992A372A620019F862 /* NetworkService.swift in Sources */,
-				34A531A02A372EA00019F862 /* MovieAPI.swift in Sources */,
+				34A531A02A372EA00019F862 /* BookAPI.swift in Sources */,
+				34A531A92A386F960019F862 /* BookSearchRepositoryProtocol.swift in Sources */,
 				34A531652A371E3F0019F862 /* SWIFTUI_MovieReviewApp.swift in Sources */,
 				34A5319E2A372B540019F862 /* URLSessionProtocol.swift in Sources */,
 			);

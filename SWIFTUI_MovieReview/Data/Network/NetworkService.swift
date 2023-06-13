@@ -11,17 +11,17 @@ import Combine
 
 class NetworkService: NetworkServiceProtocol {
     let session: URLSessionProtocol
-    let movieAPI: MovieAPI
+    let bookAPI: BookAPI
     init(
         session: URLSession = .shared,
-        movieApi: MovieAPI = .init()
+        movieApi: BookAPI = .init()
     ) {
         self.session = session
-        self.movieAPI = movieApi
+        self.bookAPI = movieApi
     }
 
     func request<T>(decodingType: T.Type, param: String) -> AnyPublisher<T, URLError> where T: Decodable {
-        var urlComponents = movieAPI.getMovieListComponents()
+        var urlComponents = bookAPI.getMovieListComponents()
         urlComponents.queryItems = [
             URLQueryItem(name: "query", value: param)
         ]
