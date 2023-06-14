@@ -15,7 +15,6 @@ class MainViewModel: ObservableObject {
     let usecase: BookSearchUsecaseProtocol
     
     let tfValue = PassthroughSubject<String, Never>()
-    var bag = Set<AnyCancellable>()
     
     init(
         usecase: BookSearchUsecase = .init()
