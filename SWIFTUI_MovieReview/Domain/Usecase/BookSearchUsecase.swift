@@ -13,7 +13,7 @@ class BookSearchUsecase: BookSearchUsecaseProtocol {
     let repository: BookSearchRepositoryProtocol
     
     init(
-        repository: BookSearchRepository = .init()
+        repository: BookSearchRepositoryProtocol = BookSearchRepository()
     ) {
         self.repository = repository
     }

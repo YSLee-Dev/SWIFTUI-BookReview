@@ -14,7 +14,7 @@ class BookSearchRepository: BookSearchRepositoryProtocol {
     
     init
     (
-        service: NetworkService =  .init()
+        service: NetworkServiceProtocol = NetworkService()
     ) {
         self.networkService = service
     }

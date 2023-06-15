@@ -13,7 +13,7 @@ class NetworkService: NetworkServiceProtocol {
     let session: URLSessionProtocol
     let bookAPI: BookAPI
     init(
-        session: URLSession = .shared,
+        session: URLSessionProtocol = URLSession.shared,
         movieApi: BookAPI = .init()
     ) {
         self.session = session

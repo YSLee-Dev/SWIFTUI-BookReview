@@ -17,7 +17,7 @@ class MainViewModel: ObservableObject {
     let tfValue = PassthroughSubject<String, Never>()
     
     init(
-        usecase: BookSearchUsecase = .init()
+        usecase: BookSearchUsecaseProtocol = BookSearchUsecase()
     ) {
         self.usecase = usecase
         
