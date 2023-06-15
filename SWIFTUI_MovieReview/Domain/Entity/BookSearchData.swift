@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct BookSearchData: Identifiable, Hashable {
+struct BookSearchData: Identifiable, Hashable, Codable {
     var id: String {
         "\(self.title) \(self.price) \(self.author)"
     }
@@ -17,4 +17,5 @@ struct BookSearchData: Identifiable, Hashable {
     let author: String
     let price: String
     let pubdate: String
+    var isLiked : Bool
 }

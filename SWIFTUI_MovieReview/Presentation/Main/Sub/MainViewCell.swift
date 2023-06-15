@@ -51,6 +51,6 @@ struct MainViewCell: View {
 
 struct MainViewCell_Previews: PreviewProvider {
     static var previews: some View {
-        MainViewCell(book: .init(title: "BOOK", imgURL: nil, author: "author", price: "12,300", pubdate: "2023.06.14"))
+        MainViewCell(book: .init(title: "BOOK", imgURL: nil, author: "author", price: "12,300", pubdate: "2023.06.14", isLiked: true))
     }
 }

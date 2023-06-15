@@ -15,12 +15,6 @@ struct MainView: View {
         Array(repeating: .init(.flexible()), count: 2)
     }
     
-    private var starList: [BookSearchData] = [
-        .init(title: "1", imgURL: nil, author: "1", price: "1", pubdate: "1"),
-        .init(title: "2", imgURL: nil, author: "2", price: "2", pubdate: "2"),
-        .init(title: "3", imgURL: nil, author: "3", price: "3", pubdate: "3")
-    ]
-    
     @StateObject var viewModel = MainViewModel()
     @State private var tfText = ""
     @State private var isSearch = false
@@ -31,7 +25,7 @@ struct MainView: View {
                 if !isSearch {
                     ScrollView {
                         LazyVGrid(columns: item) {
-                            ForEach(self.starList, id: \.id) { data in
+                            ForEach(self.viewModel.saveBookList, id: \.id) { data in
                                 NavigationLink {
                                     DetailView(book: data)
                                 } label: {
@@ -43,7 +37,7 @@ struct MainView: View {
                     }
                 } else {
                     List {
-                        ForEach(self.viewModel.movieData, id: \.id) { data in
+                        ForEach(self.viewModel.bookDataList, id: \.id) { data in
                             NavigationLink {
                                 DetailView(book: data)
                             } label: {
@@ -74,6 +68,9 @@ struct MainView: View {
                         print("종료")
                         self.isSearch = false
                     }
+                }
+                .onAppear {
+                    self.viewModel.homeRefresh.send(Void())
                 }
         }
     }

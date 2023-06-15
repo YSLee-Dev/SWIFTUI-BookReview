@@ -16,7 +16,9 @@ struct BookSearchResponseDTO: Decodable {
                             imgURL: URL(string: $0.image),
                             author: $0.author,
                             price: $0.discount,
-                            pubdate: $0.pubdate)
+                            pubdate: $0.pubdate,
+                            isLiked: false
+            )
         }
     }
 }
