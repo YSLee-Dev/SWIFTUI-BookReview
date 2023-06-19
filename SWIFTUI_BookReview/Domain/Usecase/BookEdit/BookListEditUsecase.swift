@@ -23,7 +23,14 @@ class BookListEditUsecase: BookListEditUsecaseProtocol {
     
     func addBook(_ book: BookSearchData?) {
         guard let book = book else {return}
-        let liked = BookSearchData(title: book.title, imgURL: book.imgURL, author: book.author, price: book.price, pubdate: book.pubdate, isLiked: true)
+        let liked = BookSearchData(
+            title: book.title,
+            imgURL: book.imgURL,
+            author: book.author,
+            price: book.price,
+            pubdate: book.pubdate,
+            isLiked: true
+        )
         
         self.repository.addSaveBookList(liked)
     }

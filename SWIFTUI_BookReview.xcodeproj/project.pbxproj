@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		26E300ED1A07E64A28AA095B /* Pods_SWIFTUI_MovieReview.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD5B38FF97A1E54386A70F70 /* Pods_SWIFTUI_MovieReview.framework */; };
+		3419C717054CB57C97C12EB4 /* Pods_SWIFTUI_BookReview.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B0A60C71FAF374830478AC3 /* Pods_SWIFTUI_BookReview.framework */; };
+		3446AA9A2A407C9100444EDE /* BookSearchDummyData.json in Resources */ = {isa = PBXBuildFile; fileRef = 3446AA992A407C9100444EDE /* BookSearchDummyData.json */; };
+		3446AA9C2A407CC200444EDE /* BookSearchDataDummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3446AA9B2A407CC200444EDE /* BookSearchDataDummy.swift */; };
+		3446AA9E2A407E7A00444EDE /* BookSearchRepositoryFailureMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3446AA9D2A407E7A00444EDE /* BookSearchRepositoryFailureMock.swift */; };
 		34A531652A371E3F0019F862 /* SWIFTUI_MovieReviewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A531642A371E3F0019F862 /* SWIFTUI_MovieReviewApp.swift */; };
 		34A531672A371E3F0019F862 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A531662A371E3F0019F862 /* ContentView.swift */; };
 		34A531692A371E430019F862 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34A531682A371E430019F862 /* Assets.xcassets */; };
@@ -43,6 +46,16 @@
 		34A531F02A3B2D930019F862 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A531EF2A3B2D930019F862 /* DetailViewModel.swift */; };
 		34CACBBE2A4055C200DC791B /* SWIFTUI_BookReviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CACBBD2A4055C200DC791B /* SWIFTUI_BookReviewUITests.swift */; };
 		34CACBC02A4055C200DC791B /* SWIFTUI_BookReviewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CACBBF2A4055C200DC791B /* SWIFTUI_BookReviewUITestsLaunchTests.swift */; };
+		34CACBCD2A405EE000DC791B /* BookListLoadUsecaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CACBCC2A405EE000DC791B /* BookListLoadUsecaseTests.swift */; };
+		34CACBD72A40645200DC791B /* BookListLoadRepositoryMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CACBD62A40645200DC791B /* BookListLoadRepositoryMock.swift */; };
+		34CACBDB2A4069A900DC791B /* BookListEditRepositoryMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CACBDA2A4069A900DC791B /* BookListEditRepositoryMock.swift */; };
+		34CACBDE2A406A5D00DC791B /* BookListDummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CACBDD2A406A5D00DC791B /* BookListDummy.swift */; };
+		34CACBE02A406BE800DC791B /* BookListEditUsecaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CACBDF2A406BE800DC791B /* BookListEditUsecaseTests.swift */; };
+		34CACBE52A4073F100DC791B /* BookSearchRepositoryMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CACBE42A4073F100DC791B /* BookSearchRepositoryMock.swift */; };
+		34CACBE72A40756500DC791B /* DummyLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CACBE62A40756500DC791B /* DummyLoad.swift */; };
+		34CACBE92A40763F00DC791B /* BookSearchUsecaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CACBE82A40763F00DC791B /* BookSearchUsecaseTests.swift */; };
+		BFC110AA7404C7B923EBD3A5 /* Pods_SWIFTUI_BookReview_SWIFTUI_BookReviewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C6288A0FF0333CCD2A39E1E /* Pods_SWIFTUI_BookReview_SWIFTUI_BookReviewUITests.framework */; };
+		FDDBCB98CE44EDC4C580DCE3 /* Pods_SWIFTUI_BookReviewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B85F6D3CF3E97D40598DC2A /* Pods_SWIFTUI_BookReviewTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,11 +66,24 @@
 			remoteGlobalIDString = 34A531602A371E3F0019F862;
 			remoteInfo = SWIFTUI_BookReview;
 		};
+		34CACBCE2A405EE000DC791B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34A531592A371E3F0019F862 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34A531602A371E3F0019F862;
+			remoteInfo = SWIFTUI_BookReview;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11B779931167A4CD13DBDBF4 /* Pods-SWIFTUI_BookReview-SWIFTUI_BookReviewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWIFTUI_BookReview-SWIFTUI_BookReviewUITests.release.xcconfig"; path = "Target Support Files/Pods-SWIFTUI_BookReview-SWIFTUI_BookReviewUITests/Pods-SWIFTUI_BookReview-SWIFTUI_BookReviewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		184FC7D7EC5D418E0B94EA75 /* Pods-SWIFTUI_BookReviewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWIFTUI_BookReviewTests.debug.xcconfig"; path = "Target Support Files/Pods-SWIFTUI_BookReviewTests/Pods-SWIFTUI_BookReviewTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1A6C0BC97CDAC68A20077B4C /* Pods-SWIFTUI_MovieReview.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWIFTUI_MovieReview.debug.xcconfig"; path = "Target Support Files/Pods-SWIFTUI_MovieReview/Pods-SWIFTUI_MovieReview.debug.xcconfig"; sourceTree = "<group>"; };
 		29C8D660DC8B5552D2D5F479 /* Pods_SWIFTUI_MovieReviewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWIFTUI_MovieReviewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C6288A0FF0333CCD2A39E1E /* Pods_SWIFTUI_BookReview_SWIFTUI_BookReviewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWIFTUI_BookReview_SWIFTUI_BookReviewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3446AA992A407C9100444EDE /* BookSearchDummyData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BookSearchDummyData.json; sourceTree = "<group>"; };
+		3446AA9B2A407CC200444EDE /* BookSearchDataDummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSearchDataDummy.swift; sourceTree = "<group>"; };
+		3446AA9D2A407E7A00444EDE /* BookSearchRepositoryFailureMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSearchRepositoryFailureMock.swift; sourceTree = "<group>"; };
 		34A531612A371E3F0019F862 /* SWIFTUI_BookReview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWIFTUI_BookReview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34A531642A371E3F0019F862 /* SWIFTUI_MovieReviewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWIFTUI_MovieReviewApp.swift; sourceTree = "<group>"; };
 		34A531662A371E3F0019F862 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,13 +121,27 @@
 		34CACBBB2A4055C200DC791B /* SWIFTUI_BookReviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SWIFTUI_BookReviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34CACBBD2A4055C200DC791B /* SWIFTUI_BookReviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWIFTUI_BookReviewUITests.swift; sourceTree = "<group>"; };
 		34CACBBF2A4055C200DC791B /* SWIFTUI_BookReviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWIFTUI_BookReviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		34CACBCA2A405EDF00DC791B /* SWIFTUI_BookReviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SWIFTUI_BookReviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34CACBCC2A405EE000DC791B /* BookListLoadUsecaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListLoadUsecaseTests.swift; sourceTree = "<group>"; };
+		34CACBD62A40645200DC791B /* BookListLoadRepositoryMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListLoadRepositoryMock.swift; sourceTree = "<group>"; };
+		34CACBDA2A4069A900DC791B /* BookListEditRepositoryMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListEditRepositoryMock.swift; sourceTree = "<group>"; };
+		34CACBDD2A406A5D00DC791B /* BookListDummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListDummy.swift; sourceTree = "<group>"; };
+		34CACBDF2A406BE800DC791B /* BookListEditUsecaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListEditUsecaseTests.swift; sourceTree = "<group>"; };
+		34CACBE42A4073F100DC791B /* BookSearchRepositoryMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSearchRepositoryMock.swift; sourceTree = "<group>"; };
+		34CACBE62A40756500DC791B /* DummyLoad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyLoad.swift; sourceTree = "<group>"; };
+		34CACBE82A40763F00DC791B /* BookSearchUsecaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSearchUsecaseTests.swift; sourceTree = "<group>"; };
 		4513A0B52639302D04B9307A /* Pods-SWIFTUI_MovieReviewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWIFTUI_MovieReviewTests.release.xcconfig"; path = "Target Support Files/Pods-SWIFTUI_MovieReviewTests/Pods-SWIFTUI_MovieReviewTests.release.xcconfig"; sourceTree = "<group>"; };
+		49ACE9FA05CBB662C0409D6F /* Pods-SWIFTUI_BookReview.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWIFTUI_BookReview.debug.xcconfig"; path = "Target Support Files/Pods-SWIFTUI_BookReview/Pods-SWIFTUI_BookReview.debug.xcconfig"; sourceTree = "<group>"; };
 		4B64ECDE1F470539E80A1DC3 /* Pods-SWIFTUI_MovieReviewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWIFTUI_MovieReviewTests.debug.xcconfig"; path = "Target Support Files/Pods-SWIFTUI_MovieReviewTests/Pods-SWIFTUI_MovieReviewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B85F6D3CF3E97D40598DC2A /* Pods_SWIFTUI_BookReviewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWIFTUI_BookReviewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DEA6AF75F9C308B345D07F6 /* Pods-SWIFTUI_BookReview-SWIFTUI_BookReviewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWIFTUI_BookReview-SWIFTUI_BookReviewUITests.debug.xcconfig"; path = "Target Support Files/Pods-SWIFTUI_BookReview-SWIFTUI_BookReviewUITests/Pods-SWIFTUI_BookReview-SWIFTUI_BookReviewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6B0A60C71FAF374830478AC3 /* Pods_SWIFTUI_BookReview.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWIFTUI_BookReview.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E3F337FA0CBE2287F689677 /* Pods_SWIFTUI_MovieReview_SWIFTUI_MovieReviewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWIFTUI_MovieReview_SWIFTUI_MovieReviewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		837F8D39E6236A41111403A5 /* Pods-SWIFTUI_MovieReview-SWIFTUI_MovieReviewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWIFTUI_MovieReview-SWIFTUI_MovieReviewUITests.release.xcconfig"; path = "Target Support Files/Pods-SWIFTUI_MovieReview-SWIFTUI_MovieReviewUITests/Pods-SWIFTUI_MovieReview-SWIFTUI_MovieReviewUITests.release.xcconfig"; sourceTree = "<group>"; };
 		96B0E27C2C248AEFB5827A97 /* Pods-SWIFTUI_MovieReview-SWIFTUI_MovieReviewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWIFTUI_MovieReview-SWIFTUI_MovieReviewUITests.debug.xcconfig"; path = "Target Support Files/Pods-SWIFTUI_MovieReview-SWIFTUI_MovieReviewUITests/Pods-SWIFTUI_MovieReview-SWIFTUI_MovieReviewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB993FB59677B603CDA5733B /* Pods-SWIFTUI_BookReviewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWIFTUI_BookReviewTests.release.xcconfig"; path = "Target Support Files/Pods-SWIFTUI_BookReviewTests/Pods-SWIFTUI_BookReviewTests.release.xcconfig"; sourceTree = "<group>"; };
 		F7CA4B0BAA0D34EBBBE4FEF5 /* Pods-SWIFTUI_MovieReview.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWIFTUI_MovieReview.release.xcconfig"; path = "Target Support Files/Pods-SWIFTUI_MovieReview/Pods-SWIFTUI_MovieReview.release.xcconfig"; sourceTree = "<group>"; };
-		FD5B38FF97A1E54386A70F70 /* Pods_SWIFTUI_MovieReview.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWIFTUI_MovieReview.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD74DEDFE2C341F6000B3C50 /* Pods-SWIFTUI_BookReview.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWIFTUI_BookReview.release.xcconfig"; path = "Target Support Files/Pods-SWIFTUI_BookReview/Pods-SWIFTUI_BookReview.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +149,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26E300ED1A07E64A28AA095B /* Pods_SWIFTUI_MovieReview.framework in Frameworks */,
+				3419C717054CB57C97C12EB4 /* Pods_SWIFTUI_BookReview.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +157,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFC110AA7404C7B923EBD3A5 /* Pods_SWIFTUI_BookReview_SWIFTUI_BookReviewUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34CACBC72A405EDF00DC791B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDBCB98CE44EDC4C580DCE3 /* Pods_SWIFTUI_BookReviewTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,8 +177,9 @@
 			children = (
 				34A531A12A37347B0019F862 /* RequestToken.swift */,
 				34A531922A3722010019F862 /* .swiftlint.yml */,
-				34A531632A371E3F0019F862 /* SWIFTUI_MovieReview */,
+				34A531632A371E3F0019F862 /* SWIFTUI_BookReview */,
 				34CACBBC2A4055C200DC791B /* SWIFTUI_BookReviewUITests */,
+				34CACBCB2A405EE000DC791B /* SWIFTUI_BookReviewTests */,
 				34A531622A371E3F0019F862 /* Products */,
 				4D99506DF06840659FAA2C1B /* Pods */,
 				6B4E8B4FF6DEC4FB56281EB5 /* Frameworks */,
@@ -141,11 +191,12 @@
 			children = (
 				34A531612A371E3F0019F862 /* SWIFTUI_BookReview.app */,
 				34CACBBB2A4055C200DC791B /* SWIFTUI_BookReviewUITests.xctest */,
+				34CACBCA2A405EDF00DC791B /* SWIFTUI_BookReviewTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		34A531632A371E3F0019F862 /* SWIFTUI_MovieReview */ = {
+		34A531632A371E3F0019F862 /* SWIFTUI_BookReview */ = {
 			isa = PBXGroup;
 			children = (
 				34A531B62A3878BA0019F862 /* Presentation */,
@@ -155,7 +206,7 @@
 				34A531C72A3B1AE70019F862 /* Util */,
 				34A531952A3729C90019F862 /* Resource */,
 			);
-			path = SWIFTUI_MovieReview;
+			path = SWIFTUI_BookReview;
 			sourceTree = "<group>";
 		};
 		34A5316A2A371E430019F862 /* Preview Content */ = {
@@ -456,6 +507,88 @@
 			path = SWIFTUI_BookReviewUITests;
 			sourceTree = "<group>";
 		};
+		34CACBCB2A405EE000DC791B /* SWIFTUI_BookReviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				34CACBDC2A406A5200DC791B /* DummyData */,
+				34CACBD32A405F0300DC791B /* Usecase */,
+			);
+			path = SWIFTUI_BookReviewTests;
+			sourceTree = "<group>";
+		};
+		34CACBD32A405F0300DC791B /* Usecase */ = {
+			isa = PBXGroup;
+			children = (
+				34CACBE22A4073BB00DC791B /* BookSearch */,
+				34CACBD82A40697200DC791B /* BookEdit */,
+				34CACBD42A4063FD00DC791B /* BookLoad */,
+			);
+			path = Usecase;
+			sourceTree = "<group>";
+		};
+		34CACBD42A4063FD00DC791B /* BookLoad */ = {
+			isa = PBXGroup;
+			children = (
+				34CACBCC2A405EE000DC791B /* BookListLoadUsecaseTests.swift */,
+				34CACBD52A40641300DC791B /* Mock */,
+			);
+			path = BookLoad;
+			sourceTree = "<group>";
+		};
+		34CACBD52A40641300DC791B /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				34CACBD62A40645200DC791B /* BookListLoadRepositoryMock.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		34CACBD82A40697200DC791B /* BookEdit */ = {
+			isa = PBXGroup;
+			children = (
+				34CACBDF2A406BE800DC791B /* BookListEditUsecaseTests.swift */,
+				34CACBD92A40698600DC791B /* Mock */,
+			);
+			path = BookEdit;
+			sourceTree = "<group>";
+		};
+		34CACBD92A40698600DC791B /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				34CACBDA2A4069A900DC791B /* BookListEditRepositoryMock.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		34CACBDC2A406A5200DC791B /* DummyData */ = {
+			isa = PBXGroup;
+			children = (
+				34CACBDD2A406A5D00DC791B /* BookListDummy.swift */,
+				3446AA9B2A407CC200444EDE /* BookSearchDataDummy.swift */,
+				3446AA992A407C9100444EDE /* BookSearchDummyData.json */,
+				34CACBE62A40756500DC791B /* DummyLoad.swift */,
+			);
+			path = DummyData;
+			sourceTree = "<group>";
+		};
+		34CACBE22A4073BB00DC791B /* BookSearch */ = {
+			isa = PBXGroup;
+			children = (
+				34CACBE82A40763F00DC791B /* BookSearchUsecaseTests.swift */,
+				34CACBE32A4073C800DC791B /* Mock */,
+			);
+			path = BookSearch;
+			sourceTree = "<group>";
+		};
+		34CACBE32A4073C800DC791B /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				34CACBE42A4073F100DC791B /* BookSearchRepositoryMock.swift */,
+				3446AA9D2A407E7A00444EDE /* BookSearchRepositoryFailureMock.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
 		4D99506DF06840659FAA2C1B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -465,6 +598,12 @@
 				837F8D39E6236A41111403A5 /* Pods-SWIFTUI_MovieReview-SWIFTUI_MovieReviewUITests.release.xcconfig */,
 				4B64ECDE1F470539E80A1DC3 /* Pods-SWIFTUI_MovieReviewTests.debug.xcconfig */,
 				4513A0B52639302D04B9307A /* Pods-SWIFTUI_MovieReviewTests.release.xcconfig */,
+				49ACE9FA05CBB662C0409D6F /* Pods-SWIFTUI_BookReview.debug.xcconfig */,
+				FD74DEDFE2C341F6000B3C50 /* Pods-SWIFTUI_BookReview.release.xcconfig */,
+				5DEA6AF75F9C308B345D07F6 /* Pods-SWIFTUI_BookReview-SWIFTUI_BookReviewUITests.debug.xcconfig */,
+				11B779931167A4CD13DBDBF4 /* Pods-SWIFTUI_BookReview-SWIFTUI_BookReviewUITests.release.xcconfig */,
+				184FC7D7EC5D418E0B94EA75 /* Pods-SWIFTUI_BookReviewTests.debug.xcconfig */,
+				EB993FB59677B603CDA5733B /* Pods-SWIFTUI_BookReviewTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -472,9 +611,11 @@
 		6B4E8B4FF6DEC4FB56281EB5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FD5B38FF97A1E54386A70F70 /* Pods_SWIFTUI_MovieReview.framework */,
 				6E3F337FA0CBE2287F689677 /* Pods_SWIFTUI_MovieReview_SWIFTUI_MovieReviewUITests.framework */,
 				29C8D660DC8B5552D2D5F479 /* Pods_SWIFTUI_MovieReviewTests.framework */,
+				6B0A60C71FAF374830478AC3 /* Pods_SWIFTUI_BookReview.framework */,
+				2C6288A0FF0333CCD2A39E1E /* Pods_SWIFTUI_BookReview_SWIFTUI_BookReviewUITests.framework */,
+				5B85F6D3CF3E97D40598DC2A /* Pods_SWIFTUI_BookReviewTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -506,9 +647,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 34CACBC32A4055C300DC791B /* Build configuration list for PBXNativeTarget "SWIFTUI_BookReviewUITests" */;
 			buildPhases = (
+				B9F3ED193D0F5ABA9FA18841 /* [CP] Check Pods Manifest.lock */,
 				34CACBB72A4055C200DC791B /* Sources */,
 				34CACBB82A4055C200DC791B /* Frameworks */,
 				34CACBB92A4055C200DC791B /* Resources */,
+				834F0586BCBDE5EFF4EE1904 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -519,6 +662,26 @@
 			productName = SWIFTUI_BookReviewUITests;
 			productReference = 34CACBBB2A4055C200DC791B /* SWIFTUI_BookReviewUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		34CACBC92A405EDF00DC791B /* SWIFTUI_BookReviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34CACBD02A405EE000DC791B /* Build configuration list for PBXNativeTarget "SWIFTUI_BookReviewTests" */;
+			buildPhases = (
+				4F66F35456A05D9484A937FC /* [CP] Check Pods Manifest.lock */,
+				34CACBC62A405EDF00DC791B /* Sources */,
+				34CACBC72A405EDF00DC791B /* Frameworks */,
+				34CACBC82A405EDF00DC791B /* Resources */,
+				F1E275A0C686542A20288534 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34CACBCF2A405EE000DC791B /* PBXTargetDependency */,
+			);
+			name = SWIFTUI_BookReviewTests;
+			productName = SWIFTUI_BookReviewTests;
+			productReference = 34CACBCA2A405EDF00DC791B /* SWIFTUI_BookReviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -534,6 +697,10 @@
 						CreatedOnToolsVersion = 14.3;
 					};
 					34CACBBA2A4055C200DC791B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 34A531602A371E3F0019F862;
+					};
+					34CACBC92A405EDF00DC791B = {
 						CreatedOnToolsVersion = 14.3;
 						TestTargetID = 34A531602A371E3F0019F862;
 					};
@@ -554,6 +721,7 @@
 			targets = (
 				34A531602A371E3F0019F862 /* SWIFTUI_BookReview */,
 				34CACBBA2A4055C200DC791B /* SWIFTUI_BookReviewUITests */,
+				34CACBC92A405EDF00DC791B /* SWIFTUI_BookReviewTests */,
 			);
 		};
 /* End PBXProject section */
@@ -576,6 +744,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		34CACBC82A405EDF00DC791B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3446AA9A2A407C9100444EDE /* BookSearchDummyData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -594,7 +770,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SWIFTUI_MovieReview-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SWIFTUI_BookReview-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -625,15 +801,93 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SWIFTUI_MovieReview/Pods-SWIFTUI_MovieReview-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SWIFTUI_BookReview/Pods-SWIFTUI_BookReview-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SWIFTUI_MovieReview/Pods-SWIFTUI_MovieReview-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SWIFTUI_BookReview/Pods-SWIFTUI_BookReview-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SWIFTUI_MovieReview/Pods-SWIFTUI_MovieReview-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SWIFTUI_BookReview/Pods-SWIFTUI_BookReview-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F66F35456A05D9484A937FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SWIFTUI_BookReviewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		834F0586BCBDE5EFF4EE1904 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SWIFTUI_BookReview-SWIFTUI_BookReviewUITests/Pods-SWIFTUI_BookReview-SWIFTUI_BookReviewUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SWIFTUI_BookReview-SWIFTUI_BookReviewUITests/Pods-SWIFTUI_BookReview-SWIFTUI_BookReviewUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SWIFTUI_BookReview-SWIFTUI_BookReviewUITests/Pods-SWIFTUI_BookReview-SWIFTUI_BookReviewUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9F3ED193D0F5ABA9FA18841 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SWIFTUI_BookReview-SWIFTUI_BookReviewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1E275A0C686542A20288534 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SWIFTUI_BookReviewTests/Pods-SWIFTUI_BookReviewTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SWIFTUI_BookReviewTests/Pods-SWIFTUI_BookReviewTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SWIFTUI_BookReviewTests/Pods-SWIFTUI_BookReviewTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -685,6 +939,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		34CACBC62A405EDF00DC791B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34CACBD72A40645200DC791B /* BookListLoadRepositoryMock.swift in Sources */,
+				34CACBCD2A405EE000DC791B /* BookListLoadUsecaseTests.swift in Sources */,
+				34CACBDE2A406A5D00DC791B /* BookListDummy.swift in Sources */,
+				3446AA9C2A407CC200444EDE /* BookSearchDataDummy.swift in Sources */,
+				34CACBE72A40756500DC791B /* DummyLoad.swift in Sources */,
+				34CACBE92A40763F00DC791B /* BookSearchUsecaseTests.swift in Sources */,
+				34CACBDB2A4069A900DC791B /* BookListEditRepositoryMock.swift in Sources */,
+				3446AA9E2A407E7A00444EDE /* BookSearchRepositoryFailureMock.swift in Sources */,
+				34CACBE52A4073F100DC791B /* BookSearchRepositoryMock.swift in Sources */,
+				34CACBE02A406BE800DC791B /* BookListEditUsecaseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -692,6 +963,11 @@
 			isa = PBXTargetDependency;
 			target = 34A531602A371E3F0019F862 /* SWIFTUI_BookReview */;
 			targetProxy = 34CACBC12A4055C200DC791B /* PBXContainerItemProxy */;
+		};
+		34CACBCF2A405EE000DC791B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34A531602A371E3F0019F862 /* SWIFTUI_BookReview */;
+			targetProxy = 34CACBCE2A405EE000DC791B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -812,13 +1088,13 @@
 		};
 		34A531862A371E440019F862 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A6C0BC97CDAC68A20077B4C /* Pods-SWIFTUI_MovieReview.debug.xcconfig */;
+			baseConfigurationReference = 49ACE9FA05CBB662C0409D6F /* Pods-SWIFTUI_BookReview.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SWIFTUI_MovieReview/Resource/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SWIFTUI_BookReview/Resource/Preview Content\"";
 				DEVELOPMENT_TEAM = 6V8879W55Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -842,13 +1118,13 @@
 		};
 		34A531872A371E440019F862 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7CA4B0BAA0D34EBBBE4FEF5 /* Pods-SWIFTUI_MovieReview.release.xcconfig */;
+			baseConfigurationReference = FD74DEDFE2C341F6000B3C50 /* Pods-SWIFTUI_BookReview.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SWIFTUI_MovieReview/Resource/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SWIFTUI_BookReview/Resource/Preview Content\"";
 				DEVELOPMENT_TEAM = 6V8879W55Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -872,6 +1148,7 @@
 		};
 		34CACBC42A4055C300DC791B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DEA6AF75F9C308B345D07F6 /* Pods-SWIFTUI_BookReview-SWIFTUI_BookReviewUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -889,6 +1166,7 @@
 		};
 		34CACBC52A4055C300DC791B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11B779931167A4CD13DBDBF4 /* Pods-SWIFTUI_BookReview-SWIFTUI_BookReviewUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -901,6 +1179,44 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = SWIFTUI_BookReview;
+			};
+			name = Release;
+		};
+		34CACBD12A405EE000DC791B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 184FC7D7EC5D418E0B94EA75 /* Pods-SWIFTUI_BookReviewTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6V8879W55Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yslee.SWIFTUI-BookReviewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SWIFTUI_BookReview.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SWIFTUI_BookReview";
+			};
+			name = Debug;
+		};
+		34CACBD22A405EE000DC791B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB993FB59677B603CDA5733B /* Pods-SWIFTUI_BookReviewTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6V8879W55Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yslee.SWIFTUI-BookReviewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SWIFTUI_BookReview.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SWIFTUI_BookReview";
 			};
 			name = Release;
 		};
@@ -930,6 +1246,15 @@
 			buildConfigurations = (
 				34CACBC42A4055C300DC791B /* Debug */,
 				34CACBC52A4055C300DC791B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34CACBD02A405EE000DC791B /* Build configuration list for PBXNativeTarget "SWIFTUI_BookReviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34CACBD12A405EE000DC791B /* Debug */,
+				34CACBD22A405EE000DC791B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

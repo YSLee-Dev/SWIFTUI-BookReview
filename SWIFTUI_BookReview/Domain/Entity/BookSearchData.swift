@@ -17,5 +17,5 @@ struct BookSearchData: Identifiable, Hashable, Codable {
     let author: String
     let price: String
     let pubdate: String
-    var isLiked : Bool
+    var isLiked: Bool
 }
