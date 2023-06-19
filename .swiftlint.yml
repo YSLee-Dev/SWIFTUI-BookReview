@@ -1,7 +1,6 @@
 excluded:
     - Pods
-    - SWIFTUI_MovieReviewTests
-    - SWIFTUI_MovieReviewUITests
+    - SWIFTUI_BookReviewUITests
     - SWIFTUI_MovieReview/Application/SWIFTUI_MovieReviewApp.swift
 
 disabled_rules:
